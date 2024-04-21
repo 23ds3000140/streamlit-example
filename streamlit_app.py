@@ -6,12 +6,10 @@ st.write("""
 #Get Input
 
 st.header('User Input Parameters')
-
+num1 = cnt_children = st.number_input("NUM1")
+num2 = cnt_children = st.number_input("NUM2")
+num3 = cnt_children = st.number_input("NUM3")
 def get_largest():
-    num1 = cnt_children = st.number_input("NUM1")
-    num2 = cnt_children = st.number_input("NUM2")
-    num3 = cnt_children = st.number_input("NUM3")
-
     output = 0
     if num1 > num2 and num1 > num3:
         output = num1
