@@ -22,4 +22,4 @@ def get_largest():
     st.write(output)
     
 
-st.form_submit_button(label="Submit", help=None, on_click=get_largest(), args=None, kwargs=None, *, type="secondary", disabled=False, use_container_width=False)
+st.button("Calculate", type="primary", on_click=get_largest)
