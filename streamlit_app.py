@@ -17,7 +17,7 @@ def get_largest():
         output = num1
     elif num2 > num1 and num2 > num3:
         output = num2
-    else
+    else:
         output = num3
 
     st.subheader('Largest number is:')
